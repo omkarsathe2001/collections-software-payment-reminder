@@ -1,0 +1,66 @@
+.customer-table-container {
+  margin: 30px;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Header */
+.customer-table th {
+  background: #2c3e50;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Body */
+.customer-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #333;   /* 🔥 FIX: visible text */
+}
+
+/* Hover effect */
+.customer-table tr:hover {
+  background: #f5f5f5;
+}
+
+/* Container */
+.action-icons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Common icon */
+.icon {
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Edit */
+.edit-icon {
+  color: #3498db;
+}
+
+.edit-icon:hover {
+  color: #2980b9;
+  transform: scale(1.2);
+}
+
+/* Delete */
+.delete-icon {
+  color: #e74c3c;
+}
+
+.delete-icon:hover {
+  color: #c0392b;
+  transform: scale(1.2);
+}

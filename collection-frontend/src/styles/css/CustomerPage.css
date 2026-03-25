@@ -1,0 +1,11 @@
+.page-container {
+  max-width: 1200px;   /* 🔥 FIX WIDTH */
+  margin: 0 auto;      /* center */
+  padding: 20px;
+}
+
+/* Button center */
+.btn-container {
+  text-align: center;
+  margin: 20px 0;
+}

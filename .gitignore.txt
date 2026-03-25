@@ -1,0 +1,14 @@
+# Node
+node_modules/
+dist/
+
+# Java
+target/
+*.log
+
+# ZIP files (ignore if you don’t want them)
+*.zip
+
+# IDE
+.vscode/
+.idea/

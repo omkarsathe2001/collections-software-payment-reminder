@@ -1,0 +1,71 @@
+.account-form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* SAME AS customer form-card */
+.account-form {
+  width: 420px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.account-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* FORM GROUP (important for consistency) */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+/* INPUT STYLE SAME AS CUSTOMER */
+.account-form input,
+.account-form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.account-form input:focus,
+.account-form select:focus {
+  border-color: #3498db;
+}
+
+/* BUTTON SAME STYLE */
+.submit-btn {
+  margin-top: 10px;
+  padding: 10px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #2980b9;
+}
+
+/* ERROR SAME */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.input-error {
+  border: 1px solid red !important;
+}

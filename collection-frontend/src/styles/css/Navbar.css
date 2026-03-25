@@ -1,0 +1,95 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #2c3e50, #34495e);
+  color: white;
+  padding: 12px 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* LEFT */
+.navbar-left h2 {
+  margin: 0;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* CENTER MENU */
+.navbar-center {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-center button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Hover underline effect */
+.navbar-center button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: #3498db;
+  transition: 0.3s;
+}
+
+.navbar-center button:hover::after {
+  width: 100%;
+}
+
+.navbar-center button:hover {
+  color: #3498db;
+}
+
+/* RIGHT */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* LOGIN BUTTON */
+.login-btn {
+  background: #3498db;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.login-btn:hover {
+  background: #2980b9;
+  transform: scale(1.05);
+}
+
+/* LOGOUT BUTTON */
+.logout-btn {
+  background: #e74c3c;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.logout-btn:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}

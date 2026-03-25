@@ -1,0 +1,25 @@
+.create-btn {
+  padding: 10px 20px;
+  background: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.create-btn:hover {
+  background: #27ae60;
+}
+
+.page-container {
+  max-width: 1200px;   /* 🔥 FIX WIDTH */
+  margin: 0 auto;      /* center */
+  padding: 20px;
+}
+
+/* Button center */
+.btn-container {
+  text-align: center;
+  margin: 20px 0;
+}
